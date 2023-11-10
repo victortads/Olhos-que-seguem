@@ -1,0 +1,54 @@
+body {
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    background: linear-gradient(rgb(126, 229, 255),rgb(100, 100, 250));
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+#imagem{
+    width: 40%;
+    height: 40%;
+}
+#eyes{
+    display: flex;
+    column-gap: 25px;
+}
+
+.eyes {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.pupil {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid rgb(11, 255, 3);
+}
