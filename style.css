@@ -1,5 +1,5 @@
 body {
-    background-color: brown;
+    background-color: #a52a2a;
     margin: 0;
     padding: 0;
 }
@@ -23,10 +23,25 @@ body {
     align-items: center;
 
 }
-#imagem{
+
+.boca{
     width: 40%;
-    height: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#imagem{
+    width: 100%;
+    height: 100%;
+}
+
+#imagem2{
+    width: 100%;
+    height: 100%;
+}
+
 #eyes{
     display: flex;
     column-gap: 25px;
@@ -51,4 +66,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border: 8px solid rgb(11, 255, 3);
+}
+
+.displayNone{
+    display: none;
+}
+
+.displayOn{
+    display: block;
 }
